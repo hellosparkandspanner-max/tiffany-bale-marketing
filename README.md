@@ -1,1 +1,7 @@
-Tiffany Bale Marketing: mobile and desktop layout correction. Upload index.html, styles.css, script.js, privacy.html and assets folder preserving their paths. The START_HERE_PREVIEW.html file is a local preview only and is not needed for GitHub Pages. Formspree endpoint remains unchanged. Do not overwrite working content with earlier versions.
+# Tiffany Bale Marketing | editorial portfolio update
+
+Upload the contents of this folder to the root of your existing GitHub Pages repository, replacing files with matching names. Do not upload the containing folder itself.
+
+Updates: three clean equal-height editorial Recent Work cards with category, short summary, highlight tags and expandable complete case studies; all visible location references changed from South Devon to Devon; existing service icons, mobile menu and brand styling retained.
+
+Files: index.html, styles.css, script.js, privacy.html and assets/. Your existing Formspree form remains in index.html.
