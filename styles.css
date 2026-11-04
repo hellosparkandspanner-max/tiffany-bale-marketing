@@ -149,3 +149,14 @@
 .case-detail h4{margin-top:18px}
 @media(max-width:980px){.visual-projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.visual-projects{grid-template-columns:1fr;gap:16px}.visual-projects .case-card{min-height:0;padding:23px}.case-card-main{padding-top:9px}.case-card h3{font-size:29px;margin:16px 0 12px}.case-card .case-summary{font-size:14px;line-height:1.6;margin-bottom:15px}.case-tags{padding-bottom:20px}.visual-projects .case-card details{margin:0 -23px -23px}.visual-projects .case-card summary{padding:18px 23px}.case-detail{padding:0 23px 22px}}
+
+/* Desktop colour-paint reliability. Avoid compositor-heavy animations and blur. */
+.header{background:#fffdfb;backdrop-filter:none;-webkit-backdrop-filter:none}
+.graphic-services .service-card{transition:none;transform:none!important;will-change:auto;isolation:isolate;backface-visibility:visible;-webkit-backface-visibility:visible}
+.graphic-services .service-card:hover{transform:none!important}
+.graphic-services .service-card:nth-child(1),
+.graphic-services .service-card:nth-child(5){background:#e7f1f0!important}
+.graphic-services .service-card:nth-child(2),
+.graphic-services .service-card:nth-child(6){background:#fce6ef!important}
+.graphic-services .service-card:nth-child(3){background:#e7f1f0!important}
+.graphic-services .service-card:nth-child(4){background:#fff!important}
