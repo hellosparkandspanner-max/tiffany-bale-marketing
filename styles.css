@@ -160,3 +160,35 @@
 .graphic-services .service-card:nth-child(6){background:#fce6ef!important}
 .graphic-services .service-card:nth-child(3){background:#e7f1f0!important}
 .graphic-services .service-card:nth-child(4){background:#fff!important}
+
+
+/* November 2026: warm story-led portfolio cards, matching the approved Brand Refresh direction. */
+.visual-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.visual-projects .case-card{padding:0;min-height:430px;display:flex;flex-direction:column;overflow:hidden;border:1px solid #d7e4e2;border-radius:18px;box-shadow:0 12px 30px rgba(0,58,67,.07);background:#e8f4f3}
+.visual-projects .case-card.project-two{background:#fce9ef;border-color:#f2d7e0}
+.visual-projects .case-card.project-three{background:#edf5f4;border-color:#d7e4e2}
+.visual-projects .case-card .case-topline{padding:30px 27px 0;border:0}
+.visual-projects .case-card .case-category{font-size:11px;color:#006e76;letter-spacing:1.2px}
+.visual-projects .case-card .case-index{color:#66787c;font-size:11px}
+.visual-projects .case-card .case-card-main{padding:20px 27px 27px;flex:1;display:flex;flex-direction:column}
+.visual-projects .case-card h3{margin:0 0 15px;min-height:2.28em;line-height:1.15;font-size:clamp(27px,2.6vw,36px);letter-spacing:-.9px;color:#005d66}
+.visual-projects .case-card .case-summary{margin:0 0 28px;font-size:15px;line-height:1.55;color:#365a60;flex:1}
+.visual-projects .case-journey{display:grid;grid-template-columns:minmax(0,1fr) 23px minmax(0,1.15fr);align-items:center;gap:7px;margin-top:auto}
+.visual-projects .case-journey span{display:flex;justify-content:center;align-items:center;padding:11px 10px;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.94);border-radius:100px;color:#005e68;font-size:11px;line-height:1.35;font-weight:700;text-align:center;min-height:48px}
+.visual-projects .case-journey svg{width:23px;height:19px;stroke:#fc4e79}
+.visual-projects .case-card details{margin:0;background:transparent;border:0;border-top:1px solid rgba(0,96,107,.17);border-radius:0}
+.visual-projects .case-card summary{padding:20px 27px;font-size:14px;font-weight:750;color:#005d66;cursor:pointer}
+.visual-projects .case-detail{padding:2px 27px 27px;background:rgba(255,255,255,.5)}
+.visual-projects .case-detail h4{color:#005d66}
+.visual-projects .case-detail p{color:#384c51}
+.visual-projects .case-card summary:hover{background:rgba(255,255,255,.35)}
+@media(max-width:980px){.visual-projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.visual-projects{grid-template-columns:1fr;gap:16px}.visual-projects .case-card{min-height:0}.visual-projects .case-card .case-topline{padding:25px 23px 0}.visual-projects .case-card .case-card-main{padding:19px 23px 24px}.visual-projects .case-card h3{font-size:clamp(29px,7.5vw,35px);min-height:0}.visual-projects .case-card .case-summary{font-size:15px;margin-bottom:24px}.visual-projects .case-card summary{padding:18px 23px}.visual-projects .case-detail{padding:2px 23px 24px}}
+@media(max-width:350px){.visual-projects .case-journey{gap:5px;grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr)}.visual-projects .case-journey span{font-size:10px;padding:10px 5px}.visual-projects .case-journey svg{width:18px}}
+
+/* Latest refinement: concise highlight chips on colourful story cards */
+.visual-projects .case-card .case-summary{margin-bottom:20px;flex:0 0 auto}
+.visual-projects .case-card .case-tags{display:flex;flex-wrap:wrap;align-content:flex-end;gap:8px;margin-top:auto;padding:0}
+.visual-projects .case-card .case-tags span{display:inline-flex;align-items:center;min-height:31px;border-radius:999px;padding:7px 11px;background:rgba(255,255,255,.78);border:1px solid rgba(0,110,118,.14);color:#005d66;font-weight:700;font-size:11px;line-height:1.3}
+.visual-projects .case-card.project-two .case-tags span{background:rgba(255,255,255,.7);border-color:rgba(252,78,121,.2);color:#8b4162}
+@media(max-width:700px){.visual-projects .case-card .case-summary{margin-bottom:18px}}
